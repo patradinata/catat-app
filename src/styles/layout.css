@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-dark-secondary);
+  color: var(--color-white);
+}
+
+/* Layout */
+.header {
+  background: var(--bg-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+  font-size: 1.25em;
+  font-weight: 600;
+  letter-spacing: 1.75px;
+}
+
+.body-app {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1200px;
+  min-height: 80vh;
+  margin: 2rem auto 1rem;
+}
+
+.footer {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #323232;
+  --color-white: #ffffff;
+  --color-grey: #a9a9b3;
+  --color-grey-light: #9aa0a6;
+  --color-green: #00bcd4;
+  --color-danger: #f44336;
+  --bg-dark: #252627;
+  --bg-dark-secondary: #292a2d;
+}
+
+@import "layout.css";
+@import "utility.css";
+@import "components.css";
+@import "responsive.css";
